@@ -1,0 +1,17 @@
+BODY, H2, H3, H4, H5, H6, TH, TD {
+font-family: "Arial Black",  sans-serif;
+}
+H1 {
+    font-size: 38px;
+    font-family: arial, helvetica, sans-serif;
+}
+
+.main {
+    text-align: center;
+}
+
+hr{
+    border: 0;
+    border-bottom: 1px dashed #ccc;
+    background: #999;
+}

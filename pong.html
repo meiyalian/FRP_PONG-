@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <style>
+            @import url(style.css);
+    
+            svg {
+                background-color: rgb(41, 41, 36);
+            }
+
+
+            
+        </style>
+
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <script src="./dist/pong.js"></script>
+    </head>
+    <body>
+
+        <div class= "main">
+            <h1>Pong &#127955</h1>
+            <hr>
+
+            
+          
+
+            <button class="w3-button w3-black w3-hover-white w3-border w3-border-black" id= "startbtn" >click to start</button>
+            
+            
+            <br>
+            <br>
+
+            <text id = "announcement" font-size="50px" ></text>
+
+            <br>
+            <br>
+
+            <svg id="canvas" width="600" height="600">
+                <g  transform="translate(140,50)">
+                    <text id= "autoscore" fill="white" font-size="30px" contentEditable="true">0</text>
+                </g>
+    
+                <g transform="translate(440,50)"> 
+                    <text id= "playerscore"  fill="white" font-size="30px" contentEditable="true">0</text>
+                </g>
+    
+       
+            </svg>
+        </div>
+   
+    </body>
+</html>
